@@ -1,19 +1,27 @@
 /* Float demo */
 .container-1, .container-3 {
-  height: 200px;
+  height: 400px;
   background-color: #666;
 }
 
 .box-1 {
-  height: 200px;
+  height: 600px;
   float: left;
-  width: 60%;
+  width: 20%;
+  margin: 2% 2%;
 }
 
 .box-2 {
-  height: 200px;
+  height: 600px;
   float: left;
-  width: 40%;
+  width: 46%;
+  margin: 2% 2%;
+}
+.box-3{
+  height: 600px;
+  float: left;
+  width: 20%;
+  margin: 2% 2%;
 }
 
 .clearfix:after {
@@ -22,14 +30,14 @@
   display: block;
 }
 
-.color-1 {
-  background-color: #dbff9e;
-}
-
 .color-2 {
-  background-color: blue;
+  background-color: red;
 }
 
 .color-3 {
-  background-color: rgba(255, 66, 66, 1);
+  background-color: orange;
+}
+
+.color-4 {
+  background-color: green
 }
